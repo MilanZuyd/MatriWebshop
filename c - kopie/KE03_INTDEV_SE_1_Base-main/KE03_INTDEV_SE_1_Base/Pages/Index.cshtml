@@ -1,0 +1,72 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="Slogan text-center my-4">
+    <img src="~/images/logo.png" alt="Logo" class="logo-img" />
+    <h2 class="fw-light mt-3">Your mechanical part dealer!</h2>
+</div>
+
+<div class="text-center mb-5">
+    <div class="d-flex justify-content-center gap-4 flex-wrap">
+        <!-- All Products -->
+        <div class="d-flex flex-column align-items-center">
+            <a href="/Products" class="text-decoration-none text-dark">
+                <div class="uniform-button">
+                    <img src="~/images/all-products.png" alt="All Products" class="icon-img" />
+                </div>
+            </a>
+            <a href="/Products" class="text-decoration-none text-dark">
+                <div class="label-box">
+                    All products
+                </div>
+            </a>
+        </div>
+
+        <!-- Discounts -->
+        <div class="d-flex flex-column align-items-center">
+            <a href="/AllProducts" class="text-decoration-none text-dark">
+                <div class="uniform-button">
+                    <img src="~/images/all-products.png" alt="Discounts" class="icon-img" />
+                </div>
+            </a>
+            <a href="/AllProducts" class="text-decoration-none text-dark">
+                <div class="label-box">
+                    Discounts
+                </div>
+            </a>
+        </div>
+
+        <!-- Popular Products -->
+        <div class="d-flex flex-column align-items-center">
+            <a href="/AllProducts" class="text-decoration-none text-dark">
+                <div class="uniform-button">
+                    <img src="~/images/all-products.png" alt="Popular Products" class="icon-img" />
+                </div>
+            </a>
+            <a href="/AllProducts" class="text-decoration-none text-dark">
+                <div class="label-box">
+                    Popular Products
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Klant</th>
+            <th>Aantal Orders</th>
+        </tr>
+    </thead>
+    @foreach (var c in Model.Customers)
+    {
+    <tr>
+        <td>@Html.DisplayName(c.Name)</td>
+        <td>@Html.DisplayName(c.Orders.Count.ToString())</td>
+    </tr>
+    }
+</table>

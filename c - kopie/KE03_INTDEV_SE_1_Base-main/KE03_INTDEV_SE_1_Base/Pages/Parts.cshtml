@@ -1,0 +1,30 @@
+@page
+@model PartsModel
+@{
+    ViewData["Title"] = "Parts";
+}
+
+<link rel="stylesheet" href="~/css/Products.css" />
+
+<h2>Parts</h2>
+<p>Browse through high quality parts.</p>
+
+@foreach (var part in Model.Parts)
+{
+<div class="product-card">
+    <img src="~/images/all-products.png" alt="Product Image" class="product-image" />
+
+    <div class="product-info">
+        <div class="product-header">
+            <h3 class="product-title">@part.Name</h3>
+            <span class="product-price">€ 0</span>
+        </div>
+
+        <p class="product-description">
+            @part.Description
+        </p>
+
+        <button class="buy-button">Add to cart</button>
+    </div>
+</div>
+}
