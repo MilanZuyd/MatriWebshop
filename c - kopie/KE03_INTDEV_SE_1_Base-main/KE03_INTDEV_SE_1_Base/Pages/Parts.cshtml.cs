@@ -27,10 +27,10 @@ public class PartsModel : PageModel
 
     public Dictionary<string, string> PartImages { get; set; } = new()
 {
-    { "Tandwiel", "/images/tandwiel.jpg" },
-    { "M5 Boutje", "/images/m5-boutje.jpg" },
-    { "Hydraulische cilinder", "/images/hydraulische-cilinder.jpg" },
-    { "Koelvloeistofpomp", "/images/koelvloeistofpomp.jpg" }
+    { "Tandwiel", "/images/tandwiel.png" },
+    { "M5 Boutje", "/images/m5-boutje.png" },
+    { "Hydraulische cilinder", "/images/hydraulische-cilinder.png" },
+    { "Koelvloeistofpomp", "/images/koelvloeistofpomp.png" }
 };
 
 }
