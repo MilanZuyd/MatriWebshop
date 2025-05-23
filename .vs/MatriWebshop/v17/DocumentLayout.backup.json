@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\School\\MatriWebshop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\MatrixIncDbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\MatrixIncDbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\MatrixIncDbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\MatrixIncDbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -45,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\OrderItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,11 +110,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "Parts.cshtml.cs",
+              "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml.cs",
+              "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml.cs",
+              "ToolTip": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml.cs",
+              "RelativeToolTip": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:00:17.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Parts.cshtml",
+              "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml",
+              "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml",
+              "ToolTip": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml",
+              "RelativeToolTip": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Parts.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T11:59:49.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MatrixIncDbContext.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\MatrixIncDbContext.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\MatrixIncDbContext.cs",
@@ -118,19 +152,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MatrixIncDbInitializer.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\MatrixIncDbInitializer.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\MatrixIncDbInitializer.cs",
               "ToolTip": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\MatrixIncDbInitializer.cs",
               "RelativeToolTip": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\MatrixIncDbInitializer.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAUwD4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:00:39.376Z"
+              "WhenOpened": "2025-05-23T10:00:39.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\OrderItem.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\OrderItem.cs",
@@ -142,20 +177,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Product.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Product.cs",
               "ToolTip": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Product.cs",
               "RelativeToolTip": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T09:51:25.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Order.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Order.cs",
@@ -167,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Models\\Customer.cs",
@@ -179,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Interfaces\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Interfaces\\ICustomerRepository.cs",
@@ -191,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "IPartRepository.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Interfaces\\IPartRepository.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Interfaces\\IPartRepository.cs",
@@ -203,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Interfaces\\IProductRepository.cs",
@@ -215,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\DataAccessLayer\\Interfaces\\IOrderRepository.cs",
@@ -227,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "site.css",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\wwwroot\\css\\site.css",
@@ -239,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Products.css",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\wwwroot\\css\\Products.css",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\wwwroot\\css\\Products.css",
@@ -251,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Orderhistory.cshtml",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml",
@@ -263,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "Orderhistory.cshtml.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml.cs",
@@ -271,11 +306,12 @@
               "RelativeToolTip": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Orderhistory.cshtml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:58:32.841Z"
+              "WhenOpened": "2025-05-23T08:58:32.841Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Products.js",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\wwwroot\\js\\Products.js",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\wwwroot\\js\\Products.js",
@@ -287,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Shared\\_Layout.cshtml",
@@ -299,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Shoppingcart.cshtml.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Shoppingcart.cshtml.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Shoppingcart.cshtml.cs",
@@ -311,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Shoppingcart.cshtml",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Shoppingcart.cshtml",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Shoppingcart.cshtml",
@@ -323,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Index.cshtml",
@@ -335,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Program.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Program.cs",
@@ -347,31 +383,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Products.cshtml.cs",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml.cs",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml.cs",
               "ToolTip": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml.cs",
               "RelativeToolTip": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAUwDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADsAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T23:09:46.663Z"
+              "WhenOpened": "2025-05-22T23:09:46.663Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Products.cshtml",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml",
               "ToolTip": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml",
               "RelativeToolTip": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Products.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-22T23:06:17.334Z"
+              "WhenOpened": "2025-05-22T23:06:17.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\School\\MatriWebshop\\c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Privacy.cshtml",
               "RelativeDocumentMoniker": "c - kopie\\KE03_INTDEV_SE_1_Base-main\\KE03_INTDEV_SE_1_Base\\Pages\\Privacy.cshtml",
