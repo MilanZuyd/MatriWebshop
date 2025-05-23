@@ -1,8 +1,39 @@
 @page
-@model OrderhistoryModel
+@model KE03_INTDEV_SE_1_Base.Pages.OrderhistoryModel
 @{
     ViewData["Title"] = "Order History";
 }
 
-<h2>Order history</h2>
-<p>Your past purchases</p>
+<h1>Order History</h1>
+
+@if (!Model.Orders.Any())
+{
+<p>You have no orders yet.</p>
+}
+else
+{
+@foreach (var order in Model.Orders)
+    {
+<div class="order-box" style="margin-bottom:20px; padding:10px; border:1px solid #ccc;">
+    <h3>Order #@order.Id</h3>
+    <p><strong>Date:</strong> @order.OrderDate.ToShortDateString()</p>
+
+    @if (order.Products != null && order.Products.Any())
+            {
+    <ul>
+        @foreach (var product in order.Products)
+                    {
+        <li>
+            <strong>@product.Name</strong> - @product.Description<br />
+            Price: @product.Price.ToString("C")
+        </li>
+                    }
+    </ul>
+            }
+            else
+            {
+    <p><em>No products in this order.</em></p>
+            }
+</div>
+    }
+}
