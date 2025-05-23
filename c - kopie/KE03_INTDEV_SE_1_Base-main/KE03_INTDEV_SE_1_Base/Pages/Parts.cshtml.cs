@@ -24,4 +24,13 @@ public class PartsModel : PageModel
             .Include(p => p.Products)
             .ToListAsync();
     }
+
+    public Dictionary<string, string> PartImages { get; set; } = new()
+{
+    { "Tandwiel", "/images/tandwiel.jpg" },
+    { "M5 Boutje", "/images/m5-boutje.jpg" },
+    { "Hydraulische cilinder", "/images/hydraulische-cilinder.jpg" },
+    { "Koelvloeistofpomp", "/images/koelvloeistofpomp.jpg" }
+};
+
 }

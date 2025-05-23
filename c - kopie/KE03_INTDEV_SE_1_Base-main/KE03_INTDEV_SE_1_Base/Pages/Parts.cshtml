@@ -12,7 +12,8 @@
 @foreach (var part in Model.Parts)
 {
 <div class="product-card">
-    <img src="~/images/all-products.png" alt="Product Image" class="product-image" />
+    <img src="@Model.PartImages.GetValueOrDefault(part.Name, "/images/default.jpg")" alt="@part.Name" class="product-image" />
+
 
     <div class="product-info">
         <div class="product-header">
