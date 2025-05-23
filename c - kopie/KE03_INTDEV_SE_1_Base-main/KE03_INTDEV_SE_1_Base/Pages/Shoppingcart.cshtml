@@ -1,7 +1,7 @@
 @page
 @model ShoppingcartModel
 @{
-    ViewData["Title"] = "Shoppingcart";
+    ViewData["Title"] = "Shopping Cart";
 }
 
 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -10,3 +10,44 @@
 </div>
 
 <p>Products or parts that are ready to be purchased.</p>
+
+@if (!Model.CartItems.Any())
+{
+<div class="alert alert-warning">Your cart is empty.</div>
+}
+else
+{
+<table class="table table-striped align-middle">
+    <thead class="table-light">
+        <tr>
+            <th>Product</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Subtotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.CartItems)
+            {
+        <tr>
+            <td><strong>@item.Product.Name</strong></td>
+            <td>@item.Product.Description</td>
+            <td>@item.Quantity</td>
+            <td>€ @item.Product.Price</td>
+            <td>€ @(item.Product.Price * item.Quantity)</td>
+        </tr>
+            }
+    </tbody>
+</table>
+
+<div class="text-end mt-4">
+    <h5>Total: <span class="text-success">€ @Model.CartItems.Sum(i => i.Product.Price * i.Quantity)</span></h5>
+</div>
+
+<div class="text-end mt-3">
+    <form method="post" asp-page-handler="Purchase">
+        <button type="submit" class="btn btn-primary">Purchase products</button>
+    </form>
+</div>
+}

@@ -1,25 +1,60 @@
+using DataAccessLayer.Interfaces;
 using DataAccessLayer.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-using System.Threading.Tasks;
-using DataAccessLayer.Models;
-using DataAccessLayer;
-
+using System.Linq;
+using System.Text.Json;
 
 public class ProductsModel : PageModel
 {
-    private readonly MatrixIncDbContext _context;
+    private readonly IProductRepository _productRepository;
 
-    public ProductsModel(MatrixIncDbContext context)
+    public ProductsModel(IProductRepository productRepository)
     {
-        _context = context;
+        _productRepository = productRepository;
     }
 
-    public List<Product> Products { get; set; }
+    public IEnumerable<Product> Products { get; set; } = new List<Product>();
 
-    public async Task OnGetAsync()
+    public void OnGet()
     {
-        Products = await _context.Products.ToListAsync();
+        Products = _productRepository.GetAllProducts();
+    }
+
+    public IActionResult OnPostAddToCart(int productId, int quantity)
+    {
+        var product = _productRepository.GetProductById(productId);
+        if (product == null || quantity < 1)
+        {
+            return BadRequest();
+        }
+
+        var sessionData = HttpContext.Session.GetString("Cart");
+        var cart = string.IsNullOrEmpty(sessionData)
+            ? new List<CartItem>()
+            : JsonSerializer.Deserialize<List<CartItem>>(sessionData);
+
+        var existingItem = cart!.FirstOrDefault(p => p.Product.Id == productId);
+        if (existingItem != null)
+        {
+            existingItem.Quantity += quantity;
+        }
+        else
+        {
+            cart.Add(new CartItem { Product = product, Quantity = quantity });
+        }
+
+        HttpContext.Session.SetString("Cart", JsonSerializer.Serialize(cart));
+
+        return new JsonResult(new { success = true });
+    }
+
+    public class CartItem
+    {
+        public Product Product { get; set; } = new();
+        public int Quantity { get; set; }
     }
 }
+

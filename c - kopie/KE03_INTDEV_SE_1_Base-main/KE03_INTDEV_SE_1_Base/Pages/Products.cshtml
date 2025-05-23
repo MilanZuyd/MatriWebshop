@@ -24,7 +24,18 @@
             @product.Description
         </p>
 
-        <button class="buy-button">Add to cart</button>
+        <form method="post" asp-page-handler="AddToCart" class="add-to-cart-form">
+            <input type="hidden" name="productId" value="@product.Id" />
+            <input type="hidden" name="quantity" value="1" />
+            <button type="submit" class="buy-button">Add to cart</button>
+        </form>
+
+
     </div>
 </div>
 }
+
+@section Scripts {
+    <script src="~/js/Products.js"></script>
+}
+
