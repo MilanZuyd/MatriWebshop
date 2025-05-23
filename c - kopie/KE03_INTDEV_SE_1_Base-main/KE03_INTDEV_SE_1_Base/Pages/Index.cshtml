@@ -11,7 +11,7 @@
 
 <div class="text-center mb-5">
     <div class="d-flex justify-content-center gap-4 flex-wrap">
-        <!-- All Products -->
+        <!-- Products -->
         <div class="d-flex flex-column align-items-center">
             <a href="/Products" class="text-decoration-none text-dark">
                 <div class="uniform-button">
@@ -20,53 +20,56 @@
             </a>
             <a href="/Products" class="text-decoration-none text-dark">
                 <div class="label-box">
-                    All products
+                    Products
                 </div>
             </a>
         </div>
 
-        <!-- Discounts -->
+        <!-- Parts -->
         <div class="d-flex flex-column align-items-center">
             <a href="/AllProducts" class="text-decoration-none text-dark">
                 <div class="uniform-button">
                     <img src="~/images/all-products.png" alt="Discounts" class="icon-img" />
                 </div>
             </a>
-            <a href="/AllProducts" class="text-decoration-none text-dark">
+            <a href="/Parts" class="text-decoration-none text-dark">
                 <div class="label-box">
-                    Discounts
+                    Parts
                 </div>
             </a>
         </div>
 
         <!-- Popular Products -->
-        <div class="d-flex flex-column align-items-center">
-            <a href="/AllProducts" class="text-decoration-none text-dark">
-                <div class="uniform-button">
-                    <img src="~/images/all-products.png" alt="Popular Products" class="icon-img" />
-                </div>
-            </a>
-            <a href="/AllProducts" class="text-decoration-none text-dark">
-                <div class="label-box">
-                    Popular Products
-                </div>
-            </a>
+        <!--
+            <div class="d-flex flex-column align-items-center">
+                <a href="/AllProducts" class="text-decoration-none text-dark">
+                    <div class="uniform-button">
+                        <img src="~/images/all-products.png" alt="Popular Products" class="icon-img" />
+                    </div>
+                </a>
+                <a href="/AllProducts" class="text-decoration-none text-dark">
+                    <div class="label-box">
+                        Popular Products
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
-</div>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>Klant</th>
-            <th>Aantal Orders</th>
-        </tr>
-    </thead>
-    @foreach (var c in Model.Customers)
+            -->
+        <!--
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Klant</th>
+                <th>Aantal Orders</th>
+            </tr>
+        </thead>
+        @foreach (var c in Model.Customers)
     {
-    <tr>
-        <td>@Html.DisplayName(c.Name)</td>
-        <td>@Html.DisplayName(c.Orders.Count.ToString())</td>
-    </tr>
+        <tr>
+            <td>@Html.DisplayName(c.Name)</td>
+            <td>@Html.DisplayName(c.Orders.Count.ToString())</td>
+        </tr>
     }
-</table>
+    </table>
+        -->

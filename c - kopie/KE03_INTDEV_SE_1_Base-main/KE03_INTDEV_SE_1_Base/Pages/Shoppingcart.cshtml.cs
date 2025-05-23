@@ -1,12 +1,12 @@
 using DataAccessLayer.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using DataAccessLayer.Interfaces;
-using Microsoft.AspNetCore.Mvc;
-using System;
 
 public class ShoppingcartModel : PageModel
 {
@@ -38,7 +38,6 @@ public class ShoppingcartModel : PageModel
 
     public IActionResult OnPostPurchase()
     {
-        // Load the cart from session
         var sessionData = HttpContext.Session.GetString("Cart");
         if (!string.IsNullOrEmpty(sessionData))
         {
@@ -57,7 +56,6 @@ public class ShoppingcartModel : PageModel
             CustomerId = 1 // Replace with real user ID when you have authentication
         };
 
-        // Add products based on quantity to the existing Products collection
         foreach (var item in CartItems)
         {
             var productFromDb = _productRepository.GetProductById(item.Product.Id);
@@ -73,16 +71,31 @@ public class ShoppingcartModel : PageModel
         try
         {
             _orderRepository.AddOrder(newOrder);
-
-            // Clear cart from session
             HttpContext.Session.Remove("Cart");
-
             TempData["Message"] = "Order placed successfully!";
         }
-        catch (Exception ex)
+        catch (Exception)
         {
             TempData["Error"] = "Error placing order. Please try again.";
-            // Optionally log the exception ex.Message here
+        }
+
+        return RedirectToPage();
+    }
+
+    public IActionResult OnPostRemoveItem(int productId)
+    {
+        var sessionData = HttpContext.Session.GetString("Cart");
+        if (!string.IsNullOrEmpty(sessionData))
+        {
+            CartItems = JsonSerializer.Deserialize<List<CartItem>>(sessionData) ?? new List<CartItem>();
+        }
+
+        var itemToRemove = CartItems.FirstOrDefault(i => i.Product.Id == productId);
+        if (itemToRemove != null)
+        {
+            CartItems.Remove(itemToRemove);
+            HttpContext.Session.SetString("Cart", JsonSerializer.Serialize(CartItems));
+            TempData["Message"] = "Item removed from cart.";
         }
 
         return RedirectToPage();

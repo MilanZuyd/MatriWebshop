@@ -4,6 +4,8 @@
     ViewData["Title"] = "Shopping Cart";
 }
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
 <div class="d-flex justify-content-between align-items-center mb-3">
     <h2>Shopping Cart</h2>
     <a asp-page="/Orderhistory" class="btn btn-outline-primary">Order History</a>
@@ -25,6 +27,7 @@ else
             <th>Quantity</th>
             <th>Price</th>
             <th>Subtotal</th>
+            <th></th> <!-- For the trash button -->
         </tr>
     </thead>
     <tbody>
@@ -36,6 +39,14 @@ else
             <td>@item.Quantity</td>
             <td>€ @item.Product.Price</td>
             <td>€ @(item.Product.Price * item.Quantity)</td>
+            <td>
+                <form method="post" asp-page-handler="RemoveItem">
+                    <input type="hidden" name="productId" value="@item.Product.Id" />
+                    <button type="submit" class="btn btn-sm btn-danger" title="Remove item">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </form>
+            </td>
         </tr>
             }
     </tbody>
@@ -49,6 +60,5 @@ else
     <form method="post" asp-page-handler="Purchase">
         <button type="submit" class="btn btn-primary">Purchase products</button>
     </form>
-
 </div>
 }
