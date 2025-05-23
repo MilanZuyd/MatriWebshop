@@ -59,9 +59,9 @@ public class ProductsModel : PageModel
 
     public Dictionary<string, string> ProductImages { get; set; } = new()
 {
-    { "Nebuchadnezzar", "/images/nebuchadnezzar.jpg" },
-    { "Jack-in Chair", "/images/jackin-chair.jpg" },
-    { "EMP (Electro-Magnetic Pulse) Device", "/images/emp-device.jpg" }
+    { "Nebuchadnezzar", "/images/nebuchadnezzar.png" },
+    { "Jack-in Chair", "/images/jackin-chair.png" },
+    { "EMP (Electro-Magnetic Pulse) Device", "/images/emp-device.png" }
 };
 
 }

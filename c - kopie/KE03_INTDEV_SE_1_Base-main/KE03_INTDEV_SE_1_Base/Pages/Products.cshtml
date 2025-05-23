@@ -12,7 +12,7 @@
 @foreach (var product in Model.Products)
 {
 <div class="product-card">
-    <img src="@Model.ProductImages.GetValueOrDefault(product.Name, "/images/default.jpg")" alt="@product.Name" class="product-image" />
+    <img src="@Model.ProductImages.GetValueOrDefault(product.Name, "/images/default.png")" alt="@product.Name" class="product-image" />
 
 
     <div class="product-info">
